@@ -1,0 +1,151 @@
+.wrap{
+    width: 1400px;
+    margin:auto;
+}
+.cover-gray{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(247, 247, 247);
+    position: relative;
+}
+.cover-gray:nth-child(odd){
+    left: 1030px;
+    bottom:50px;
+}
+.box:hover .cover-gray:nth-child(odd):nth-child(odd){
+    left: 820px;
+    transition: all .8s;
+}
+/* .box .gray:nth-child(even){
+    position: relative;
+    left:0px;
+    bottom: 80px;
+} */
+/* .box:hover .gray:nth-child(even){
+    bottom: 0px;
+    right: 0px;
+    transition: all .8s;
+} */
+
+.cover{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(247, 247, 247);
+    position: relative;
+    left: 300px;
+    bottom: 400px;
+
+}
+.box:hover .cover{
+    bottom: 200px;
+    transition: all .8s;
+}
+.box{
+    width: 1400px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.box .pic .title:nth-child(odd){
+    width: 300px;
+    bottom: 70px;
+    left: -120px;
+    position: relative;
+}
+.box:hover .title:nth-child(odd){
+    left: 120px;
+    transition: all .5s;
+}
+
+.box .pic .title:nth-child(even){
+    width: 300px;
+    position: relative;
+    bottom: 70px;
+    right: -120px;
+}
+.box:hover .title:nth-child(even){
+    right: 120px;
+    transition: all .1s .1s;
+}
+
+.pic .title h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(221, 25, 25);
+    padding: 10px 20px;
+}
+.pic .title h2{
+    font-size: 25px;
+}
+.pic .title h3{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.pic .title h2,
+.pic .title h3{
+    color: rgb(255, 254, 254);
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.pic .txt:nth-child(odd){
+    background-color: rgb(247, 247, 247);;
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: -350px;
+    right: 100px;
+    position: absolute;
+}
+.pic .txt:nth-child(even){
+    background-color: rgb(247, 247, 247);;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: -350px;
+    left: 400px;
+    position: absolute;
+}
+.box:hover .txt{
+    bottom: -150px;
+    right: 100px;
+    transition: all .7s .03s;
+}
+.pic{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    right: 100px;
+    z-index: 1;
+}
+.txt p{
+    font-size: 18px;
+    font-weight: bold;
+    color: crimson;
+    padding: 2px;
+}
+.txt .p-title{
+    padding: 1px;
+    color: white;
+    display: inline-block;
+    background-color: black;
+}
+/* .cover{
+    width: 500px;
+    height: 500px;
+    border-color: rgb(238, 38, 38);
+    position: relative;
+    left: 50px;
+} */
+/* .box:hover .cover{
+    bottom: 0px;
+    right: 0px;
+    transition: all .1s .1s;
+} */

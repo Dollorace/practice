@@ -13,7 +13,8 @@ body{
     background-repeat: no-repeat;
     width: 1200px;
     height: 710px;
-    margin: auto;
+    
+
 }
 header{
     color: #fff;
@@ -54,6 +55,7 @@ header{
     text-align: center;
 }
 .bluebox{
+    font-size: 42px;
     color: #fff;
     font-weight: bold;
     background-color: #3079b4d2;
