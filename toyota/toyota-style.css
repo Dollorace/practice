@@ -2,32 +2,30 @@
     width: 1400px;
     margin:auto;
 }
-.cover-gray{
+.cover{
     width: 400px;
     height: 300px;
     background-color: rgb(247, 247, 247);
     position: relative;
 }
-.cover-gray:nth-child(odd){
+.box:nth-child(odd) .cover{
     left: 1030px;
     bottom:50px;
 }
-.box:hover .cover-gray:nth-child(odd){
+.box:nth-child(odd):hover .cover{
     left: 820px;
     transition: all .8s;
 }
-/* .box .gray:nth-child(even){
-    position: relative;
-    left:0px;
-    bottom: 80px;
-} */
-/* .box:hover .gray:nth-child(even){
-    bottom: 0px;
-    right: 0px;
+.box:nth-child(even) .cover{
+    left:300px;
+    bottom: 400px;
+}
+.box:nth-child(even):hover .cover{
+    bottom: 200px;
     transition: all .8s;
-} */
+}
 
-.cover{
+/* .cover-even{
     width: 400px;
     height: 300px;
     background-color: rgb(247, 247, 247);
@@ -36,10 +34,10 @@
     bottom: 400px;
 
 }
-.box:hover .cover{
+.box:hover .cover-even{
     bottom: 200px;
     transition: all .8s;
-}
+} */
 .box{
     width: 1400px;
     margin: auto;
@@ -137,15 +135,3 @@
     display: inline-block;
     background-color: black;
 }
-/* .cover{
-    width: 500px;
-    height: 500px;
-    border-color: rgb(238, 38, 38);
-    position: relative;
-    left: 50px;
-} */
-/* .box:hover .cover{
-    bottom: 0px;
-    right: 0px;
-    transition: all .1s .1s;
-} */
