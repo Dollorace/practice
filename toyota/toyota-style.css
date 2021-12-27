@@ -12,7 +12,7 @@
     left: 1030px;
     bottom:50px;
 }
-.box:hover .cover-gray:nth-child(odd):nth-child(odd){
+.box:hover .cover-gray:nth-child(odd){
     left: 820px;
     transition: all .8s;
 }
@@ -68,7 +68,7 @@
 }
 .box:hover .title:nth-child(even){
     right: 120px;
-    transition: all .1s .1s;
+    transition: all .5s;
 }
 
 .pic .title h1{
@@ -122,7 +122,7 @@
     margin: auto;
     display: flex;
     position: relative;
-    right: 100px;
+    right: 200px;
     z-index: 1;
 }
 .txt p{
