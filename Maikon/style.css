@@ -1,0 +1,148 @@
+body{
+    padding-top: 100px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    align-content: center;
+    align-items: center;
+}
+.header .row{
+    align-items: center;
+    margin-top: 20px;
+}
+.header .row .col-6{
+    width: 680px;
+}
+.col-5 .logo-pic img{
+    max-width: 150px;
+}
+.col-6 .nav{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6 .nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto", Sans-serif;
+}
+.col-6 .nav li{
+    margin-right: 30px;
+}
+.col-6 .nav a{
+    text-decoration: none;
+    color: #5d6678;
+    font-size: 17px;
+}
+.col-6 .nav a:hover{
+    text-decoration: underline;
+}
+.col-6 .nav .contacts{
+    margin-right: 50px;
+}
+#btn{
+    text-decoration: none;
+    font-weight: bold;
+    color: #5d6678;
+    font-size: 13px;
+    padding: 10px;
+    background-color: transparent;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+}
+.about-us .row{
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.about-us .row .col-12 .title-large{
+    display: block;
+    margin: 50px;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.about-us .col-12 h3{
+    line-height: 1.3em;
+    margin-bottom: 30px;
+    margin: 50px;
+}
+.link img{
+    max-width: 150px;
+    text-align: center;
+}
+.link h4{
+    align-items:baseline;
+    margin: 50px;
+}
+.about-us .col-12 .link .light-btn{
+    background-color: #1FDE82;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.about-us-title{
+    display: block;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-right: 700px;
+    margin-top: 70px;
+}
+.about-us .row .col-12 p{
+    display: block;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin: 50px;
+}
+
+.about-us .row .col-12 .col-md-4{
+    background-color: rgb(245, 104, 104);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.about-us .item-icon img{
+    max-width: 100px;
+    margin-bottom: 50px;
+}
+.about-us .item h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.about-us .row .col-12 .col-md-4 .item h3{
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+.item-a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.why-choose .col .card{
+    height: 120px;
+    width: 250px;
+    background-color: rgba(64, 61, 233, 0.377);
+    margin-top: 30px;
+    padding: 20px 5px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: left;
+}
+.why-choose .col-12 .col-md-6 p{
+    font-size: 42px;
+}

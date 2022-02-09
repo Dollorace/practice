@@ -1,0 +1,11 @@
+@mixin fontSet($size, $weight, $color) {
+    font: {
+        size:$size;
+        weight:$weight;
+
+    }
+    color: $color;
+}
+h2 {@include fontSet(48px,900 ,yellow )}
+h4 {@include fontSet(36px,700 ,indianred )}
+p {@include fontSet(24px,600 ,steelblue )}

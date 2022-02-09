@@ -1,0 +1,15 @@
+%btn{
+    padding: 5px 15px;
+      margin: 15px;
+      color: white;
+      border-radius: 15px;
+      border: 0;
+}
+.primary-btn{
+    background-color: steelblue;
+    @extend %btn;
+}
+.error-btn {
+    background-color: indianred;
+    @extend %btn;
+}
